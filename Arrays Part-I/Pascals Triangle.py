@@ -1,7 +1,7 @@
 # Given an integer N, return the first N rows of Pascal’s triangle
 
 def pascalsTriangle(storage):
-    if not len(storage):
+    if len(storage) == 0:
         storage.append([1])
         return storage
     

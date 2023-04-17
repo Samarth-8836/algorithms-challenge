@@ -5,10 +5,8 @@ def firstElement(a):
 def merge(intervals):
     if len(intervals) == 1:
         return intervals
-    # sort based on first element
+        
     intervals.sort(key=firstElement)
-    # while True
-        # merge intervals
     
     i = 1
     while True:
